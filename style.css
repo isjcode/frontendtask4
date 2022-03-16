@@ -1,0 +1,277 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+}
+
+.navbar {
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+}
+
+.navbar a {
+    font-family: Lato;
+    margin-right: 55%; 
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: black;
+}
+
+.navbar input {
+    width: 86px;
+    height: 48px;
+    color: white;
+    background-color: #1466e0;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar input:hover {
+    transition: 0.5s;
+    background-color: #0B5ED7;
+}
+
+.img-div {
+    width: 100%;
+    height: 600px;
+    background-image: url("img/sea.jpg");
+    background-position: center;
+    filter: saturate(150%);
+}
+
+.inner-div {
+    width: 700px;
+    margin: auto;
+    height: 100%;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.inner-div p {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    width: 90%;
+}
+
+.text-input {
+    margin: 20px;
+    width: 70%;
+    height: 65px;
+    font-size: 20px;
+    padding-left: 20px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.submit-btn {
+    width: 18%;
+    height: 65px;
+    border: none;
+    background-color: #1466e0;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.icon-div {
+    width: 80%;
+    height: 250px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.icon-box {
+    width: 30%;
+    height: 250px;
+    float: left;
+    margin-left: 30px;
+    text-align: center;
+}
+
+
+.icon1 {
+    height: 50%;
+    background-image: url("img/icon1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.icon2 {
+    height: 50%;
+    background-image: url("img/icon2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.icon3 {
+    height: 50%;
+    background-image: url("img/icon3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.icon-text {
+    height: 50%;
+}
+
+.box1 p{
+    margin-left: 25%;
+}
+.box2 p{
+    margin-left: 25%;
+}
+
+.box3 p{
+    margin-left: 25%;
+}
+.icon-text p {
+    padding: 12px;
+    font-size: 110%;
+    font-weight: 200;
+}
+
+.mid-class {
+    width: 100%;
+    margin-top: 10%;
+    height: 1500px;
+}
+
+.left {
+    float: left;
+    padding-left: 76px;
+    width: 43%;
+}
+
+.text1 h1 {
+    margin-top: 10%; 
+}
+
+.text1 p {
+    width: 70%;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.right {
+    float: left;
+    width: 51%;
+}
+
+.pic1 {
+    background-image: url("img/iphone.jpg");
+    height: 450px;
+    background-repeat: no-repeat;
+}
+
+.pic2 {
+    background-image: url("img/code.jpg");
+    height: 450px;
+    background-repeat: no-repeat;
+}
+.text2 {
+    height: 450px;
+}
+
+.text2 h1 {
+    margin-top: 15%; 
+    margin-left: 10%;
+}
+
+.text2 p {
+    width: 70%;
+    padding-top: 20px;
+    font-size: 20px;
+    margin-left: 10%;
+}
+
+.row {
+    width: 100%;
+    float: left;
+    height: 450px;
+}
+
+.text3 h1 {
+    margin-top: 10%; 
+}
+
+.text3 p {
+    width: 70%;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.pic3 {
+    background-image: url("img/laptop.jpg");
+    height: 450px;
+    background-repeat: no-repeat;
+}
+
+.people {
+    width: 100%;
+    height: 500px;
+}
+
+.people h1 {
+    text-align: center;
+}
+
+.person1 {
+    float: left;
+    margin-top: 5%;
+    margin-left: 20%;
+    text-align: center;
+}
+
+.person1 img {
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.person1 h2, p {
+    margin: 10px;
+}
+
+.person2 img {
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.person2 {
+    float: left;
+    margin-top: 5%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.person2 h2, p {
+    margin: 10px;
+    width: 200px;
+}
+
+.person3 img {
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.person3 {
+    float: left;
+    margin-top: 5%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.person3 h2, p {
+    margin: 10px;
+}
+
+.bottom-img-div {
+    height: 400px;
+}
+
+.bottom-img-div .inner-div {
+    padding: 0; 
+    padding-top: 100px;
+}
